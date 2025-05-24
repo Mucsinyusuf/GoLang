@@ -75,4 +75,17 @@ func main() {
 	fmt.Println(len(cars))
 	fmt.Println(len(arr1))
 
+	//slices
+	// syntax slice_name := []datatype{values}
+	var scores = []int{13, 34, 54, 65}
+	fmt.Println(scores)
+	scores[1] = 100
+	fmt.Println((scores))
+	scores = append(scores, 87)
+	fmt.Println(scores)
+
+	//slice ranges
+	rangeOne := scores[1:]
+	fmt.Println(rangeOne)
+
 }

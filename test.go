@@ -72,6 +72,10 @@ func main() {
 	const PI = 3.14
 	fmt.Println(PI)
 
+	q := 10
+	u := 2
+	fmt.Println(q / u)
+
 }
 
 // Variables
